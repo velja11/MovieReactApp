@@ -1,0 +1,91 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  background-color: wheat;
+  border-radius: 5px;
+  width: 21%;
+  height: 227px;
+  margin: 6px;
+  }
+
+  .card a{
+    text-decoration: none;
+  }
+
+  .card a:hover{
+    box-shadow: 0 4px 8px 0 rgba(47, 95, 226, 0.2);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+.addBut {
+    /* position: absolute;
+    margin-left: 245px;
+    margin-top: -130px; */
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color:black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.addBut:hover{
+  background-color: lightgreen;
+}
+
+.added {
+  /* position: absolute;
+    margin-left: 245px;
+    margin-top: -130px; */
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+@media screen and (max-width: 1060px) {
+  .card {
+    width: 35%;
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    width: 36%;
+  }
+  
+}
+@media screen and (max-width: 650px) {
+  .card {
+    width: 51%;
+  }
+  
+}
+
+@media screen and (max-width: 420px) {
+  .card {
+    height: 270px;
+    width: 60%;
+  }
+  
+}

@@ -1,0 +1,14 @@
+.watchlist {
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:570px){
+    .watchlist {
+        flex-direction: column;
+        
+    }
+    
+}

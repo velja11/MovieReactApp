@@ -1,0 +1,15 @@
+.movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

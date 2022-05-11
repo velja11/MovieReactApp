@@ -1,0 +1,116 @@
+.login {
+    margin: 0 auto;
+    background: white;
+    width: 266px;
+    height: 342px;
+    margin-top: 170px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.parLog {
+    text-align: center;
+    background-color:#8282f4;
+    padding: 15px;
+    border-radius: 9px 9px 0 0;
+    
+}
+
+.parSign {
+    text-align: center;
+    background-color:#e4e461;
+    padding: 15px;
+    border-radius: 9px 9px 0 0;
+
+}
+
+.login label {
+    display: block;
+    text-align: center;
+
+}
+
+.login input {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    margin-top: 12px;
+    border-radius: 10px;
+    width: 162px;
+    background-color: #f1e9e9;
+    
+}
+
+.button1{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 162px;
+    background-color:#8282f4;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.button2{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 162px;
+    background-color: #e4e461;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+
+.linkButt {
+    background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 103px;
+}
+
+/* @media screen and (max-width: 700px) {
+    .login{
+        width: 35%;
+    }
+
+    
+}
+
+@media screen and (max-width: 520px) {
+    .login{
+        width: 45%;
+    }
+
+    
+}
+
+@media screen and (max-width: 385px) {
+    .login{
+        width: 65%;
+    }
+
+    
+}
+
+@media screen and (max-width: 255px) {
+    .login{
+        width: 70%;
+    }
+
+    
+}*/
+
+@media screen and (max-height: 650px) {
+    .login{
+        margin-top: 150px;
+    }
+
+    
+} 
